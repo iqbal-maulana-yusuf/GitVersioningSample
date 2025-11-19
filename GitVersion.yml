@@ -6,4 +6,5 @@ branches:
     regex: '^master$'
     increment: patch
     tracks-release-branches: true
+    is-release-branch: false
 

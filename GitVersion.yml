@@ -6,5 +6,4 @@ branches:
     regex: '^master$'
     mode: ContinuousDeployment
     increment: patch
-    is-mainline: false
     is-release-branch: false

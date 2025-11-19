@@ -5,13 +5,5 @@ branches:
   master:
     regex: '^master$'
     increment: patch
-
-  develop:
-    regex: '^develop$'
-    increment: minor
-
-  hotfix:
-    regex: '^hotfix[/-]'
-    increment: patch
-    source-branches: ['master']
+    tracks-release-branches: true
 

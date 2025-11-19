@@ -4,6 +4,7 @@ mode: ContinuousDeployment
 branches:
   master:
     regex: '^master$'
+    mode: ContinuousDeployment
     increment: patch
     tracks-release-branches: true
     is-release-branch: false
